@@ -17,9 +17,8 @@ body {
 }
 
 span {
-  position: absolute;
-  top: 0;
-  right: 0;
+ position: absolute;
+ right: 0;
 }
 
 .sconto {
@@ -31,6 +30,17 @@ span {
 }
 
 .hearts {
+  display: none;
+}
+
+.item:hover .hearts {
+  display: inline;
   right: 50%;
-  bottom: 100%;
+  bottom: 5%;
+  font-size: 20px;
+  color: red;
+}
+
+.item:hover {
+  cursor: pointer;
 }
